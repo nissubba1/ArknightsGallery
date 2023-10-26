@@ -1,0 +1,80 @@
+/* Global reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Base styling for the body */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #181818;
+}
+
+/* Header styles */
+.header {
+  color: aliceblue;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  background-color: #181818;
+  border-bottom: 10px solid orange;
+}
+h1 {
+  font-size: 60px;
+}
+/* Gallery container styles, mainly for flex layout and spacing */
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Individual gallery item styling */
+.gallery-item {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: transform 0.2s; /* Smooth hover transformation */
+}
+
+/* Styles for images within the gallery */
+.gallery-item img {
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  object-fit: cover; /* Ensure images cover their container without distorting */
+  object-position: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+/* This creates a consistent spacing after gallery items */
+.gallery-item::after {
+  content: "";
+  width: 500px;
+}
+
+/* Hover effect for gallery items */
+.gallery-item:hover {
+  transform: scale(1.5) translateY(100px); /* Enlarge the item and move it vertically when hovered */
+}
+
+/* Styling for the previous and next buttons */
+.prev-btn,
+.next-btn {
+  cursor: pointer;
+  background-color: #181818;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}

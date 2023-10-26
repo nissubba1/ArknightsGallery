@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Arknights Limited Operators" />
+    <title>Arknights</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="images/icon.webp" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Arknights Limited Operators</h1>
+      <p>
+        These are the operators that can only be obtain during special campaign.
+        These are some of the strongest operators in the game.
+      </p>
+    </header>
+    <div class="gallery-container">
+      <div class="gallery-item">
+        <button onclick="changeImage('ash',-1)" class="prev-btn">&lt;</button>
+        <img
+          src="images/ash.png"
+          alt="image of Ash"
+          class="operator-image operator-image-ash"
+        />
+        <button onclick="changeImage('ash',1)" class="next-btn">&gt;</button>
+        <h2>Ash</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('chen',-1)" class="prev-btn">&lt;</button>
+        <img
+          src="images/chen.png"
+          alt="image of Ch'en the Holungday"
+          class="operator-image operator-image-chen"
+        />
+        <button onclick="changeImage('chen',1)" class="next-btn">&gt;</button>
+        <h2>Ch'en the Holungday</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('chongyue',-1)" class="prev-btn">
+          &lt;
+        </button>
+        <img
+          src="images/chnoguy.png"
+          alt="image of Chongyue"
+          class="operator-image operator-image-chongyue"
+        />
+        <button onclick="changeImage('chongyue',1)" class="next-btn">
+          &gt;
+        </button>
+        <h2>Chongyue</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('dusk',-1)" class="prev-btn">&lt;</button>
+        <img
+          src="images/dusk.png"
+          alt="image of Dusk"
+          class="operator-image operator-image-dusk"
+        />
+        <button onclick="changeImage('dusk',1)" class="next-btn">&gt;</button>
+        <h2>Dusk</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('eyjafjalla',-1)" class="prev-btn">
+          &lt;
+        </button>
+        <img
+          src="images/eyja.png"
+          alt="image of Eyjafjalla the Hvít Aska"
+          class="operator-image operator-image-eyjafjalla"
+        />
+        <button onclick="changeImage('eyjafjalla',1)" class="next-btn">
+          &gt;
+        </button>
+        <h2>Eyjafjalla the Hvít Aska</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('gavial',-1)" class="prev-btn">
+          &lt;
+        </button>
+        <img
+          src="images/gavial.png"
+          alt="image of Gavial the Invincible"
+          class="operator-image operator-image-gavial"
+        />
+        <button onclick="changeImage('gavial',1)" class="next-btn">&gt;</button>
+        <h2>Gavial the Invincible</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('kirin',-1)" class="prev-btn">&lt;</button>
+        <img
+          src="images/kirin.png"
+          alt="image of Kirin R Yato"
+          class="operator-image operator-image-kirin"
+        />
+        <button onclick="changeImage('kirin',1)" class="next-btn">&gt;</button>
+        <h2>Kirin R Yato</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('ling',-1)" class="prev-btn">&lt;</button>
+        <img
+          src="images/ling.png"
+          alt="image of Ling"
+          class="operator-image operator-image-ling"
+        />
+        <button onclick="changeImage('ling',1)" class="next-btn">&gt;</button>
+        <h2>Ling</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('muelsyse',-1)" class="prev-btn">
+          &lt;
+        </button>
+        <img
+          src="images/muelsyse.png"
+          alt="image of Muelsyse"
+          class="operator-image operator-image-muelsyse"
+        />
+        <button onclick="changeImage('muelsyse',1)" class="next-btn">
+          &gt;
+        </button>
+        <h2>Muelsyse</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('nearl',-1)" class="prev-btn">&lt;</button>
+        <img
+          src="images/neral.png"
+          alt="image of Nearl the Radiant Knight"
+          class="operator-image operator-image-nearl"
+        />
+        <button onclick="changeImage('nearl',1)" class="next-btn">&gt;</button>
+        <h2>Nearl the Radiant Knight</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('nian',-1)" class="prev-btn">&lt;</button>
+        <img
+          src="images/nian.png"
+          alt="image of Nian"
+          class="operator-image operator-image-nian"
+        />
+        <button onclick="changeImage('nian',1)" class="next-btn">&gt;</button>
+        <h2>Nian</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('rosmondis',-1)" class="prev-btn">
+          &lt;
+        </button>
+        <img
+          src="images/rosmondis.png"
+          alt="image of Rosmontis"
+          class="operator-image operator-image-rosmondis"
+        />
+        <button onclick="changeImage('rosmondis',1)" class="next-btn">
+          &gt;
+        </button>
+        <h2>Rosmontis</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('skadi',-1)" class="prev-btn">&lt;</button>
+        <img
+          src="images/skadi.png"
+          alt="image of Skadi the Corrupting Heart"
+          class="operator-image operator-image-skadi"
+        />
+        <button onclick="changeImage('skadi',1)" class="next-btn">&gt;</button>
+        <h2>Skadi the Corrupting Heart</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('spector',-1)" class="prev-btn">
+          &lt;
+        </button>
+        <img
+          src="images/spector.png"
+          alt="image of Specter the Unchained"
+          class="operator-image operator-image-spector"
+        />
+        <button onclick="changeImage('spector',1)" class="next-btn">
+          &gt;
+        </button>
+        <h2>Specter the Unchained</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('texas',-1)" class="prev-btn">&lt;</button>
+        <img
+          src="images/texas.png"
+          alt="image of Texas the Omertosa"
+          class="operator-image operator-image-texas"
+        />
+        <button onclick="changeImage('texas',1)" class="next-btn">&gt;</button>
+        <h2>Texas the Omertosa</h2>
+      </div>
+      <div class="gallery-item">
+        <button onclick="changeImage('w',-1)" class="prev-btn">&lt;</button>
+        <img
+          src="images/w.png"
+          alt="image of W"
+          class="operator-image operator-image-w"
+        />
+        <button onclick="changeImage('w',1)" class="next-btn">&gt;</button>
+        <h2>W</h2>
+      </div>
+    </div>
+
+    <!-- JavaScript section -->
+    <script>
+      // Object containing arrays of images for each operator
+      const imageCollections = {
+        // ... various operators and their images ...
+        ash: ["images/ash.png", "images/ash2.png"],
+        chen: ["images/chen.png", "images/chen2.png"],
+        chongyue: ["images/chnoguy.png"],
+        dusk: ["images/dusk.png", "images/dusk2.png"],
+        eyjafjalla: ["images/eyja.png"],
+        gavial: ["images/gavial.png", "images/gavial2.png"],
+        kirin: ["images/kirin.png"],
+        ling: ["images/ling.png", "images/ling2.png", "images/ling3.png"],
+        muelsyse: ["images/muelsyse.png"],
+        nearl: ["images/neral.png", "images/nearl2.png"],
+        nian: ["images/nian.png", "images/nian2.png"],
+        rosmondis: ["images/rosmondis.png", "images/rosmondis2.png"],
+        skadi: ["images/skadi.png", "images/skadi2.png"],
+        spector: ["images/spector.png", "images/spector2.png"],
+        texas: ["images/texas.png"],
+        w: ["images/w.png", "images/w2.png"],
+      };
+      // Object to keep track of the current image index for each operator
+      const currentIndices = {
+        // ... initial indices for each operator ...
+        ash: 0,
+        chen: 0,
+        chongyue: 0,
+        dusk: 0,
+        eyjafjalla: 0,
+        gavial: 0,
+        kirin: 0,
+        ling: 0,
+        muelsyse: 0,
+        nearl: 0,
+        nian: 0,
+        rosmondis: 0,
+        skadi: 0,
+        spector: 0,
+        texas: 0,
+        w: 0,
+      };
+      // Function to change the image for a given operator
+      function changeImage(operatorName, directions) {
+        // ... logic to change the image ...
+        const images = imageCollections[operatorName];
+        currentIndices[operatorName] += directions;
+        // If the current index goes below 0, set it to the last image's index
+        if (currentIndices[operatorName] < 0) {
+          currentIndices[operatorName] = images.length - 1;
+        }
+        // If the current index exceeds the length of the images array, reset it to 0
+        if (currentIndices[operatorName] >= images.length) {
+          currentIndices[operatorName] = 0;
+        }
+        document.querySelector(`.operator-image-${operatorName}`).src =
+          images[currentIndices[operatorName]];
+      }
+    </script>
+  </body>
+</html>
