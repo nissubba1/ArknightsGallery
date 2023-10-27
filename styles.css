@@ -78,3 +78,35 @@ h1 {
   border-radius: 5px;
   font-size: 20px;
 }
+
+/* Making Responsive for Mobile */
+@media (max-width: 700px) {
+  .header {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .gallery-item:hover {
+    transform: scale(1.2) translateY(30px); /* Enlarge the item and move it vertically when hovered */
+  }
+
+  .prev-btn,
+  .next-btn {
+    cursor: pointer;
+    background-color: #181818;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+}
