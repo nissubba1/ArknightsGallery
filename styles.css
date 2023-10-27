@@ -80,7 +80,7 @@ h1 {
 }
 
 /* Making Responsive for Mobile */
-@media (max-width: 700px) {
+@media (max-width: 420px) {
   .header {
     font-size: 14px;
   }
